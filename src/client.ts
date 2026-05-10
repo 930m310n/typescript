@@ -16,7 +16,7 @@ import type {
   SearchCitiesParams,
   SettlementTypeDto,
   TranslationsParams,
-} from './types';
+} from './types.js';
 
 export interface GeomelonClientConfig {
   apiKey: string;

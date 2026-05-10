@@ -1,6 +1,6 @@
 {
   "name": "geomelon",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "TypeScript client for the Geomelon API — cities, countries, regions, and languages with multilingual support",
   "keywords": [
     "geomelon",
@@ -36,7 +36,7 @@
   "scripts": {
     "build": "npm run build:cjs && npm run build:esm",
     "build:cjs": "tsc -p tsconfig.cjs.json",
-    "build:esm": "tsc -p tsconfig.esm.json",
+    "build:esm": "tsc -p tsconfig.esm.json && node -e \"require('fs').writeFileSync('dist/esm/package.json', JSON.stringify({type:'module'},null,2))\"",
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {

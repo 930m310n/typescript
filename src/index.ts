@@ -1,5 +1,5 @@
-export { GeomelonClient } from './client';
-export type { GeomelonClientConfig } from './client';
+export { GeomelonClient } from './client.js';
+export type { GeomelonClientConfig } from './client.js';
 export type {
   ByCoordinatesParams,
   CityDto,
@@ -19,4 +19,4 @@ export type {
   SearchCitiesParams,
   SettlementTypeDto,
   TranslationsParams,
-} from './types';
+} from './types.js';
