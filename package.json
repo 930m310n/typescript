@@ -11,6 +11,14 @@
     "api"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/930m310n/typescript.git"
+  },
+  "homepage": "https://github.com/930m310n/typescript#readme",
+  "bugs": {
+    "url": "https://github.com/930m310n/typescript/issues"
+  },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/cjs/index.d.ts",
