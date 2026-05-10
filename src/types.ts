@@ -55,6 +55,7 @@ export interface CountryDto {
   id: string;
   wikidataId: string;
   name: string;
+  localizedName?: string;
   emoji: string;
   headOfState?: string;
   headOfGovernment?: string;
@@ -132,6 +133,8 @@ export interface ListCountriesParams {
   limit?: number;
   offset?: number;
   telephoneCode?: string;
+  name?: string;
+  preferredLanguages?: string;
 }
 
 export interface TranslationsParams {
