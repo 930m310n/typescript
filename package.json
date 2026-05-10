@@ -1,6 +1,6 @@
 {
   "name": "geomelon",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "TypeScript client for the Geomelon API — cities, countries, regions, and languages with multilingual support",
   "keywords": [
     "geomelon",
