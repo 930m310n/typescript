@@ -1,8 +1,8 @@
 # Geomelon TypeScript Client
 
-TypeScript/JavaScript client for the [Geomelon API](https://rapidapi.com/geomelon/api/geomelon) — a read-only geospatial database of cities, countries, regions, and languages with multilingual support.
+TypeScript/JavaScript client for the [Geomelon API](https://rapidapi.com/hom3chuk/api/geomelon) — a read-only geospatial database of cities, countries, regions, and languages with multilingual support.
 
-Available on [RapidAPI](https://rapidapi.com/geomelon/api/geomelon).
+Available on [RapidAPI](https://rapidapi.com/hom3chuk/api/geomelon).
 
 ## Installation
 
